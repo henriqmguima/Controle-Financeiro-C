@@ -31,4 +31,5 @@ Na última fase, para concluir coloquei um cálculo que mostra quanto tempo o us
 - Funcao que manipule arquivos
 - Funcao com alocacao dinamica
 
-  
+  Email: henriquemachadoguimaraes@gmail.com
+  Linkedin: [Henrique](https://www.linkedin.com/in/henrique-guimaraes-/)
