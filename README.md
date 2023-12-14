@@ -9,9 +9,9 @@ Este projeto foi um trabalho final da disciplinna *Programação estruturada* do
 Era necessário apresentar um problema a ser resolvido em Programação em C. O projeto em questão se comprometeu a resolver parcialmente o problema econômico do brasileiro através de um **Controle de gastos**.
 
 **Requisitos:**
-- Um arquivo como cabecalho `henrique.h
-- Um arquivo de descrição das funções `henrique.c
-- Um arquivo `main.c
+- Um arquivo como cabecalho `henrique.h`
+- Um arquivo de descrição das funções `henrique.c`
+- Um arquivo `main.c`
 - Funcoes com passagem por referencia - ponteiros
 - Funções que retornassem pelo menos dois tipos de dados (int, float, char)
 
