@@ -1,0 +1,84 @@
+	renda = 2836.00; 
+	planejamentoGasto(renda, essencial, desejoPessoal, reserva);
+	
+    valores[totalGastos] = 618.00, categorias[totalGastos] = 1;
+    strcpy(descricoes[totalGastos], "Mercado");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 150.00, categorias[totalGastos] = 4;
+    strcpy(descricoes[totalGastos], "Transporte para o trabalho");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 25.00, categorias[totalGastos] = 4;
+    strcpy(descricoes[totalGastos], "UBER");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 100.00, categorias[totalGastos] = 5;
+    strcpy(descricoes[totalGastos], "Tenis, Roupas, etc");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 850.00, categorias[totalGastos] = 6;
+    strcpy(descricoes[totalGastos], "Aluguel da Moradia");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 110.00, categorias[totalGastos] = 7;
+    strcpy(descricoes[totalGastos], "Conta de Luz");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 70.00, categorias[totalGastos] = 8;
+    strcpy(descricoes[totalGastos], "Conta de Agua");
+    totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 170.00, categorias[totalGastos] = 9;
+    strcpy(descricoes[totalGastos], "Internet TMW");
+	totalGastos++, cont1++, totalEs++;
+    essencial[totalGastos-1]-=valores[totalGastos-1];
+	
+    valores[totalGastos] = 34.90, categorias[totalGastos] = 14;
+    strcpy(descricoes[totalGastos], "HBO Max");
+    totalGastos++, cont2++, totalNes++;
+    desejoPessoal[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 18.90, categorias[totalGastos] = 14;
+    strcpy(descricoes[totalGastos], "Netflix");
+    totalGastos++, cont2++, totalNes++;
+    desejoPessoal[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 21.90, categorias[totalGastos] = 14;
+    strcpy(descricoes[totalGastos], "Spotify");
+    totalGastos++, cont2++, totalNes++;
+    desejoPessoal[totalGastos-1]-=valores[totalGastos-1];
+
+    valores[totalGastos] = 90.00, categorias[totalGastos] = 13;
+    strcpy(descricoes[totalGastos], "Lanche/Ifood");
+    totalGastos++, cont2++, totalNes++;
+    desejoPessoal[totalGastos-1]-=valores[totalGastos-1];
+	for(i=0; i<12; i++){
+		essencial[i]=essencial[0];
+		desejoPessoal[i]=desejoPessoal[0];
+	}
+	dividas[0][0]=186.00;
+	totalDiv+=dividas[0][0];
+	dividas[0][1]=62.00;
+	dividas[0][2]=3;
+	dividas[0][3]=4;
+	totaldividas++;
+	dividas[1][0]=1200.00;
+	totalDiv+=dividas[1][0];
+	dividas[1][1]=200.00;
+	dividas[1][2]=6;
+	dividas[1][3]=4;
+	totaldividas++;
+	dividas[2][0]=16000.00;
+	totalDiv+=dividas[2][0];
+	dividas[2][1]=266.66;
+	dividas[2][2]=60;
+	dividas[2][3]=2;
+	totaldividas++;
